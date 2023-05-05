@@ -1,0 +1,25 @@
+ALGORITHM Sentence
+VAR
+    length = INTEGER
+    words = INTEGER
+    vowels = INTEGER 
+    S = STRING
+BEGIN
+    read (s)
+    count = 0
+    WHILE (s[count] ! = ".") DO
+    REPEAT
+     length = +1  
+     IF s[i] in [a , e , i , o , u , y]
+     THEN vowels = +1
+    END_IF 
+     i = +1 
+    UNTIL ( s[i] = " ")
+    END_REPEAT 
+    Words = +1
+    count = i 
+    END_WHILE  
+
+    
+
+END
