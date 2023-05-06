@@ -9,10 +9,11 @@ BEGIN
     count = 0
     WHILE (s[count] ! = ".") DO
     REPEAT
-     length = +1  
+    i = count
      IF s[i] in [a , e , i , o , u , y]
      THEN vowels = +1
     END_IF 
+     length = +1  
      i = +1 
     UNTIL ( s[i] = " ")
     END_REPEAT 
